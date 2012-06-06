@@ -21,7 +21,7 @@ module Faraday
             # :keepalive => true,
             # :file => 'path/to/file', # stream data off disk
           }
-          configure_compression(options, env)
+          # configure_compression(options, env)
           # configure_proxy_auth
           # :proxy => {:authorization => [user, pass]}
           # proxy[:username] && proxy[:password]
@@ -215,3 +215,4 @@ module Faraday
     end
   end
 end
+
